@@ -9,24 +9,24 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="css/likaStyle.scss">
+
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
 		<div class="reveal">
-
 			<div class="slides">
-				<section>
-					<video
-  data-autoplay
-  src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-></video>
-					<h1>ASInc Team</h1>
+
+			  <!-- Title -->
+				<section data-background-image="assets/video/background.gif">
+          <h1>ASInc Team</h1>
 					<h2>GoldenService Locks</h2>
 					<h3>e-commerce</h3>
 				</section>
-	     <!-- Слайды Игоря -->
+
+	      <!-- Слайды Игоря -->
 				<section>
 					<section id="Project Intro">
 						<h1>Igor Checheurov</h1>
@@ -64,52 +64,77 @@
 					<section id="Means of communication">
 						<a href="#">Trello</a>
 						<a href="#">Discord</a>
-
 						<aside class="notes">
-
-
 						</aside>
 					</section>
+
 					<section id="Trello">
 						<img src="#" alt="">
-
 					</section>
 
 					<section id="Problem N1">
 						<h1>Project problem #1</h1>
-
 					</section>
+
 				</section>
 
-		<!-- Слайды Сергея -->
+			  <!-- Слайды Сергея -->
 				<section>
-					<section id="Project Intro">
-						<h1>Sergey</h1>
-						<h3>Member team</h3>
-						<aside class="notes">
-							-- Расшарить экран --
-							Добрый вечер! Меня зовут Игорь Чечеуров. 
-							Разрешите представить нашу команду и наш финальный проект.
-						</aside>
+						<section id="Project Intro">
+							<h1>Sergey</h1>
+							<h3>Member team</h3>
+							<aside class="notes">
+								-- Расшарить экран --
+								Добрый вечер! Меня зовут Игорь Чечеуров. 
+								Разрешите представить нашу команду и наш финальный проект.
+							</aside>
+						</section>
+						<section>
+						</section>
+				</section>
+
+		    <!-- Слайды Лики -->
+		    <section>
+			    <section>
+					  <h1>Anzhalika Turlak</h1>
+				    <h3>Team lead</h3>
+			    </section>
+			    <section id="gitAnalytics">
+						<h2>GitHub Analytics</h2>
+						<div id="imgCol4">
+							<img src="assets/img/gitStatistic0.jpg" alt="git Analytics">
+						  <img src="assets/img/gitStatistic.jpg" alt="git Analytics">
+						  <img src="assets/img/gitStatistic1.jpg" alt="git Analytics">
+						  <img src="assets/img/gitStatistic2.jpg" alt="git Analytics">
+						</div>
+
+						
+					</section>
+					<section data-background-iframe="https://github.com/Anzhelika007/e-commerce/"
+          data-background-interactive>
+          <h2>GGGGGGGGGGGGGGGGGGGGGGGGG</h2>
+        </section>
+					<section>
+						<h2>Example of a Pull Request and Associated Code Review</h2>
+						<img src="assets/img/gitPullReq.jpg" alt="git Analytics">
+						<img src="assets/img/gitPullReq25.jpg" alt="git Analytics">
 					</section>
 					<section>
+						<h2>Overview of Technology Stack</h2>
 					</section>
-				</section>
+					<section>
+						<h2>Problem</h2>
+					</section>
+			  </section>
+				<section data-background-iframe="https://anzhelika007.github.io/e-commerce-deployment/"
+          data-background-interactive>
+          <h2>GGGGGGGGGGGGGGGGGGGGGGGGG</h2>
+        </section>
 
-		<!-- Слайды Лики -->
-		<section>
-			<section>
-					<h1>Anzhalika Turlak</h1>
-				  <h3>Team lead</h3>
-			</section>
-			<section>
-			</section>
-		</section>
-		<!-- Mem -->
-		<section>
-			<img src=""
-			</section>
-		</section>
+				<!-- Mem -->
+				<section>
+					<img src="assets/img/teamwork.png">
+				</section>
 
 			</div>
 		</div>
@@ -124,6 +149,9 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				slideNumber: 'c/t',
+				parallaxBackgroundImage: '',
+				parallaxBackgroundSize: '',
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]

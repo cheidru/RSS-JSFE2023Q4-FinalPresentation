@@ -1,0 +1,7 @@
+#imgCol4 {
+  display: flex;
+  background: red;
+  & > * {
+    flex-basis: 50%;
+  }
+}
