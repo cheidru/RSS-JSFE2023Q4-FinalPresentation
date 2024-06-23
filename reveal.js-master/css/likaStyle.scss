@@ -1,6 +1,14 @@
-#imgCol4 {
+#col4 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  & > img {
+    max-height: 250px;
+  }
+}
+#col2 {
+  display: flex;
   justify-content: space-between;
   width: 100%;
   & > * {
@@ -8,12 +16,18 @@
     max-width: 450px;
   }
 }
-#imgCol2 {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  & > * {
-    flex-basis: 50%;
-    max-width: 450px;
-  }
+.site{
+  color: black;
+}
+
+.img-scale:hover {
+  z-index: 1;
+  box-shadow: 0 5px 25px rgb(30 31 33 / 12%);
+  border-top-color: white;
+  scale: 1.5;
+  transition: 2s all;
+}
+
+.img-scale:hover#imgCol4 {
+  background-color: white;
 }
