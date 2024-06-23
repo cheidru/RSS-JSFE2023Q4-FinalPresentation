@@ -1,10 +1,19 @@
 #imgCol4 {
   display: flex;
-  background: red;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
   & > * {
     flex-basis: 50%;
+    max-width: 450px;
   }
 }
-.site {
-  color: black;
+#imgCol2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  & > * {
+    flex-basis: 50%;
+    max-width: 450px;
+  }
 }
